@@ -1,7 +1,7 @@
 window.onload = function () {
   document.getElementById("box").focus();
 };
-
+const date = new Date().toDateString();
 // Function called while clicking add button
 function add_item() {
   // Getting box and ul by selecting id;
@@ -12,6 +12,7 @@ function add_item() {
     // Creating element and adding value to it
     let make_li = document.createElement("LI");
     make_li.appendChild(document.createTextNode(item.value));
+    make_li.appendChild(document.createTextNode(`-> ${date}`));
 
     // Adding li to ul
     list_item.appendChild(make_li);
