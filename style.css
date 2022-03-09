@@ -2,6 +2,7 @@
 * {
   box-sizing: border-box;
   font-family: "Syne Mono", monospace;
+  border-radius: 10px;
 }
 
 /* Remove margins and padding from the list */
