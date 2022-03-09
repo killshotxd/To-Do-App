@@ -1,7 +1,12 @@
+window.onload = function () {
+  document.getElementById("box").focus();
+};
+
 // Function called while clicking add button
 function add_item() {
   // Getting box and ul by selecting id;
   let item = document.getElementById("box");
+
   let list_item = document.getElementById("list_item");
   if (item.value != "") {
     // Creating element and adding value to it

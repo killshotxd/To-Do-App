@@ -1,6 +1,7 @@
 /* Include the padding and border in an element's total width and height */
 * {
   box-sizing: border-box;
+  font-family: "Syne Mono", monospace;
 }
 
 /* Remove margins and padding from the list */
@@ -94,6 +95,8 @@ input {
   float: left;
   font-size: 16px;
   text-decoration: none;
+  caret-color: #8172de;
+  outline: none;
 }
 
 /* Style the "Add" button */
