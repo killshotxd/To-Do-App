@@ -13,7 +13,9 @@ function add_item() {
     let make_li = document.createElement("LI");
     make_li.appendChild(document.createTextNode(item.value));
     make_li.appendChild(document.createTextNode(`-> ${date}`));
-
+    // make_li.appendChild(
+    //   window.localStorage.setItem(item, JSON.stringify(item.value))
+    // );
     // Adding li to ul
     list_item.appendChild(make_li);
 

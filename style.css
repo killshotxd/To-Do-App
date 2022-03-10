@@ -103,21 +103,40 @@ input {
 
 /* Style the "Add" button */
 .addBtn {
-  padding: 10px;
-  width: 15%;
-  margin-left: 55px;
-  background: #5a5867;
-  color: #e6e3f8;
-  float: left;
-  text-align: center;
-  font-size: 14px;
+  /* display: inline-block;
+  outline: 0;
+  border: 0;
   cursor: pointer;
-  transition: 0.3s;
-  border-radius: 8px;
+  font-weight: 600;
+  color: rgb(72, 76, 122);
+  font-size: 14px;
+  height: 38px;
+  padding: 8px 24px;
+  border-radius: 50px;
+  background-image: linear-gradient(180deg, #fff, #f5f5fa);
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+    0 1px 3px 0 rgb(93 100 148 / 20%);
+  transition: all 0.2s ease-out; */
+
+  display: inline-block;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 6px;
+  border: 2px solid #ffffff;
+  color: rgb(72, 76, 122);
+  background: 0 0;
+  padding: 8px;
+  box-shadow: 0 4px 11px 0 rgb(37 44 97 / 15%),
+    0 1px 3px 0 rgb(93 100 148 / 20%);
+  font-weight: 800;
+  font-size: 16px;
+  height: 42px;
+  width: 15%;
 }
 
 .addBtn:hover {
-  background-color: #bbb;
+  background-color: rgb(72, 76, 122);
+  color: #fff;
 }
 
 @media only screen and (max-width: 647px) {
@@ -136,8 +155,8 @@ input {
     font-size: 13px;
   }
   .addBtn {
-    font-size: 10px;
-    width: auto;
+    font-size: 14px;
+    width: 20%;
   }
 }
 @media only screen and (max-width: 305px) {
